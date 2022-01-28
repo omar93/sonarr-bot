@@ -1,0 +1,29 @@
+{
+  "type": "module",
+  "name": "sonarr-bot",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/app.js",
+  "scripts": {
+    "start": "nodemon src/app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/omar93/sonarr-bot.git"
+  },
+  "keywords": [],
+  "author": "Omar Alhamad",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/omar93/sonarr-bot/issues"
+  },
+  "homepage": "https://github.com/omar93/sonarr-bot#readme",
+  "dependencies": {
+    "discord.js": "^13.6.0",
+    "dotenv": "^14.3.2",
+    "express": "^4.17.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  }
+}
