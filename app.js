@@ -35,13 +35,8 @@ app.post('/', async (req, res) => {
 					inline:true
 				},
 				{
-					name: 'Title',
-					value: `${data.episodes[0].title}`,
-					inline:true
-				},
-				{
 					name: 'Quality',
-					value: `${data.release.quality}`,
+					value: `${data.episodeFile.quality}`,
 					inline:true
 				}
 			]
